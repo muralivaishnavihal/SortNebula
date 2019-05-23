@@ -61,7 +61,7 @@ void main()
   cout<<"Enter elements"<<endl;
   for(i = 0; i <= n; i++)
   cin>>a[n];
-  sort(0,n);//passing to function
+  sort(0,n,a);//passing to function
   cout<<"Sorted array"<<endl; 
    for(i = 0; i <= n; i++)
 cout<<a[i]<<" ";
